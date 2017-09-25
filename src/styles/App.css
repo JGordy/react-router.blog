@@ -2,23 +2,33 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+/* nav styling */
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+nav {
+  background-color: lightgray;
   padding: 20px;
-  color: white;
 }
 
-.App-intro {
-  font-size: large;
+nav a {
+  color: black;
+  font-size: 24px;
+  margin-right: 20px;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+nav a:hover {
+  color: deepskyblue;
+}
+
+/* active styling */
+
+.selected {
+  color: dodgerblue;
+}
+
+/* Home page styling */
+.Home {
+  /*background-image: url('https://static1.squarespace.com/static/5525bbf5e4b026f75314c09b/t/5535055ee4b0f20e2b62ace7/1429538153345/blog.jpg?format=1500w');*/
+  height: 575px;
+  width: 100%;
 }
