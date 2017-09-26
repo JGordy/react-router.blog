@@ -18,8 +18,8 @@ ReactDOM.render(
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/create' component={CreatePost}/>
-          <Route path='/show' component={ShowPost}/>
-          <Route path='/post/:id' component={PostList}/>
+          <Route path='/post/:id' component={ShowPost}/>
+          <Route path='/post' component={PostList}/>
         </Switch>
       </App>
     </BaseLayout>

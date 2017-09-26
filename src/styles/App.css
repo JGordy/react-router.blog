@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -5,8 +10,11 @@
 /* nav styling */
 
 nav {
-  background-color: lightgray;
+  background-color: rgba(200,200,200, 0.5);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   padding: 20px;
+  position: fixed;
+  width: 100%;
 }
 
 nav a {
@@ -31,4 +39,88 @@ nav a:hover {
   /*background-image: url('https://static1.squarespace.com/static/5525bbf5e4b026f75314c09b/t/5535055ee4b0f20e2b62ace7/1429538153345/blog.jpg?format=1500w');*/
   height: 575px;
   width: 100%;
+}
+
+/* Post List page styling */
+
+.ShowPost {
+  padding-top: 75px;
+}
+
+.blog_link {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 175px;
+  margin: 25px auto;
+  /*padding: 10px;*/
+  text-decoration: none;
+  width: 40%;
+}
+
+.title {
+  color: dodgerblue;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-size: 36px;
+  margin: 25px 0px 0px 25px;
+  text-align: left;
+  /*text-transform: uppercase;*/
+}
+
+.author {
+  background-color: #eee;
+  color: gray;
+  font-style: italic;
+  height: 15%;
+  padding: 15px 0px 15px 50px;;
+  text-align: left;
+}
+
+/* Create blog post styling */
+
+.Create {
+  padding-top: 150px;
+}
+
+.form {
+  background-color: #eee;
+  /*border: 1px solid lightgray;*/
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px auto;
+  padding: 25px;
+  width: 60%;
+}
+
+.form input {
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.form textarea {
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  height: 150px;
+  margin-bottom: 15px;
+  padding: 10px 0px 0px 10px;
+  resize: none;
+}
+
+.form button {
+  background-color: dodgerblue;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 5px 8px;
+  width: 20%;
 }

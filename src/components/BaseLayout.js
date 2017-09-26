@@ -8,7 +8,7 @@ export default class BaseLayout extends Component {
         <nav>
           <NavLink activeClassName="selected" exact to='/'>Wobbly Blog</NavLink>
           <NavLink activeClassName="selected" to='/create'>Create Post</NavLink>
-          <NavLink activeClassName="selected" to='/show'>Show All Posts</NavLink>
+          <NavLink activeClassName="selected" to='/post'>Show All Posts</NavLink>
         </nav>
         {this.props.children}
       </div>
