@@ -27,8 +27,8 @@ export default class PostList extends Component {
     return (
       <div className="Single_Post">
         <div className="the_post">
-          <h1 className="post_author">{this.state.post.authorName}</h1>
-          <h3 className="post_title">{this.state.post.blogTitle}</h3>
+          <h1 className="post_title">{this.state.post.blogTitle}</h1>
+          <h3 className="post_author">{this.state.post.authorName}</h3>
           <p className="post_entry">{this.state.post.blogEntry}</p>
         </div>
       </div>

@@ -51,6 +51,7 @@ export default class CreatePost extends Component {
     }
   ).then(response => {
     console.log("Yay", response);
+    this.props.history.push('/post');
   }).catch(err => {
     console.log("boo", err);
   })
