@@ -18,7 +18,6 @@ export default class ShowPost extends Component {
         return results.json();
       }).then(data => {
         this.setState({posts: data});
-        console.log(this.state.posts);
       })
 }
 
